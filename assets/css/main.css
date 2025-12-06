@@ -61,7 +61,7 @@
 # General Styling & Shared Classes
 --------------------------------------------------------------*/
 body {
-  padding-top: 7rem; /* The template usually handles this, but adjust if needed */
+  padding-top: 7rem;
   color: var(--default-color);
   background-color: var(--background-color);
   font-family: var(--default-font);
