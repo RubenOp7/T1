@@ -27,7 +27,7 @@
 
 <body class="index-page">
 
-  <header id="header" class="header sticky-top">
+  <header id="header" class="header fixed-top">
 
     <div class="topbar d-flex align-items-center">
       <div class="container d-flex justify-content-center justify-content-md-between">
@@ -69,29 +69,34 @@
 
   <main class="main">
 
-    <section id="hero" class="hero section light-background" style="position: relative; overflow: hidden; min-height: 80vh; display: flex; align-items: center;">
+<section id="hero" class="hero section light-background" style="position: relative; overflow: hidden; min-height: 90vh; display: flex; align-items: center; justify-content: center;">
       
       <video autoplay muted loop playsinline style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: 0;">
         <source src="assets/img/cam/DrgerAlcotestSeriesAlcoholScreeningDevices.mp4" type="video/mp4">
       </video>
 
-      <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(255, 255, 255, 0.6); z-index: 1;"></div>
+      <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.6); z-index: 1;"></div>
 
-      <div class="container position-relative" style="z-index: 2;">
-        <div class="welcome position-relative" data-aos="fade-down" data-aos-delay="100">
-          <h2>BIENVENIDO A CAM INTERNATIONAL</h2>
-          <p>Una sola empresa, muchas soluciones.</p>
+      <div class="container position-relative" style="z-index: 2; text-align: center;">
+        <div class="welcome" data-aos="fade-down" data-aos-delay="100">
+          <h2 style="font-size: 3.5rem; font-weight: 700; color: #ffffff; margin-bottom: 20px;">BIENVENIDO A CAM INTERNATIONAL</h2>
+          <p style="font-size: 1.5rem; color: #f1f1f1;">Una sola empresa, muchas soluciones.</p>
         </div>
+      </div>
+    </section>
 
-        <div class="content row gy-4">
+<section id="why-us" class="why-us section" style="padding: 60px 0;">
+      <div class="container">
+        <div class="row gy-4">
+          
           <div class="col-lg-4 d-flex align-items-stretch">
-            <div class="why-box" data-aos="zoom-out" data-aos-delay="200">
-              <h3>¿Por qué elegirnos?</h3>
-              <p>
+            <div class="why-box" data-aos="zoom-out" data-aos-delay="200" style="background: #1977cc; color: #fff; padding: 30px; border-radius: 10px;">
+              <h3 style="color: #fff; font-weight: 700; margin-bottom: 30px; font-size: 34px;">¿Por qué elegirnos?</h3>
+              <p style="margin-bottom: 30px;">
                 CAM INTERNATIONAL, operando localmente bajo la razón social “Sanchez & Martínez S.A.”, fue fundada en el año 2008. Contamos con más de 12 años de experiencia en el mercado y somos representantes exclusivos de Central American Merch Corporation.
               </p>
               <div class="text-center">
-                <a href="#about" class="more-btn"><span>Leer Más</span> <i class="bi bi-chevron-right"></i></a>
+                <a href="#about" class="more-btn" style="display: inline-block; background: rgba(255, 255, 255, 0.2); padding: 6px 30px 8px 30px; color: #fff; border-radius: 50px; transition: all ease-in-out 0.4s;"><span>Leer Más</span> <i class="bi bi-chevron-right"></i></a>
               </div>
             </div>
           </div>
@@ -99,30 +104,35 @@
           <div class="col-lg-8 d-flex align-items-stretch">
             <div class="d-flex flex-column justify-content-center">
               <div class="row gy-4">
+                
                 <div class="col-xl-4 d-flex align-items-stretch">
-                  <div class="icon-box" data-aos="zoom-out" data-aos-delay="300">
-                    <i class="bi bi-clipboard-data"></i>
-                    <h4>Control de Calidad</h4>
-                    <p>Proveemos equipos y materiales para laboratorios de análisis e investigación.</p>
+                  <div class="icon-box d-flex flex-column justify-content-center align-items-center bg-light" data-aos="zoom-out" data-aos-delay="300" style="padding: 40px 30px; border-radius: 10px; width: 100%; text-align: center;">
+                    <i class="bi bi-clipboard-data" style="color: #1977cc; font-size: 32px; margin-bottom: 15px;"></i>
+                    <h4 style="font-size: 20px; font-weight: 700; margin-bottom: 15px;">Control de Calidad</h4>
+                    <p style="font-size: 15px; color: #848484;">Proveemos equipos y materiales para laboratorios de análisis e investigación.</p>
                   </div>
                 </div>
+
                 <div class="col-xl-4 d-flex align-items-stretch">
-                  <div class="icon-box" data-aos="zoom-out" data-aos-delay="400">
-                    <i class="bi bi-gem"></i>
-                    <h4>Marcas Mundiales</h4>
-                    <p>Somos los referentes de las mejores marcas a nivel mundial en diversos sectores.</p>
+                  <div class="icon-box d-flex flex-column justify-content-center align-items-center bg-light" data-aos="zoom-out" data-aos-delay="400" style="padding: 40px 30px; border-radius: 10px; width: 100%; text-align: center;">
+                    <i class="bi bi-gem" style="color: #1977cc; font-size: 32px; margin-bottom: 15px;"></i>
+                    <h4 style="font-size: 20px; font-weight: 700; margin-bottom: 15px;">Marcas Mundiales</h4>
+                    <p style="font-size: 15px; color: #848484;">Somos los referentes de las mejores marcas a nivel mundial en diversos sectores.</p>
                   </div>
                 </div>
+
                 <div class="col-xl-4 d-flex align-items-stretch">
-                  <div class="icon-box" data-aos="zoom-out" data-aos-delay="500">
-                    <i class="bi bi-inboxes"></i>
-                    <h4>Seguridad Industrial</h4>
-                    <p>Soluciones integrales para la seguridad y el equipamiento industrial.</p>
+                  <div class="icon-box d-flex flex-column justify-content-center align-items-center bg-light" data-aos="zoom-out" data-aos-delay="500" style="padding: 40px 30px; border-radius: 10px; width: 100%; text-align: center;">
+                    <i class="bi bi-inboxes" style="color: #1977cc; font-size: 32px; margin-bottom: 15px;"></i>
+                    <h4 style="font-size: 20px; font-weight: 700; margin-bottom: 15px;">Seguridad Industrial</h4>
+                    <p style="font-size: 15px; color: #848484;">Soluciones integrales para la seguridad y el equipamiento industrial.</p>
                   </div>
                 </div>
+
               </div>
             </div>
           </div>
+
         </div>
       </div>
     </section>
@@ -429,71 +439,123 @@
       </div>
     </section>
 
-    <section id="gallery" class="gallery section">
+<section id="gallery" class="gallery section">
+
       <div class="container section-title" data-aos="fade-up">
         <h2>Nuestras Marcas</h2>
         <p>Somos representantes exclusivos de marcas de prestigio mundial.</p>
       </div>
-      <div class="container-fluid" data-aos="fade-up" data-aos-delay="100">
-        <div class="row g-0">
-          <div class="col-lg-3 col-md-4">
-            <div class="gallery-item">
-              <a href="assets/img/cam/fisher.png" class="glightbox" data-gallery="images-gallery">
-                <img src="assets/img/cam/fisher.png" alt="Fisher Scientific" class="img-fluid">
-              </a>
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="swiper init-swiper" style="padding-bottom: 50px;">>
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 3000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              },
+              "breakpoints": {
+                "320": {
+                  "slidesPerView": 2,
+                  "spaceBetween": 20
+                },
+                "480": {
+                  "slidesPerView": 3,
+                  "spaceBetween": 30
+                },
+                "640": {
+                  "slidesPerView": 4,
+                  "spaceBetween": 40
+                },
+                "992": {
+                  "slidesPerView": 6,
+                  "spaceBetween": 40
+                }
+              }
+            }
+          </script>
+          
+          <div class="swiper-wrapper align-items-center">
+
+            <div class="swiper-slide">
+              <div class="gallery-item" style="padding: 20px; border: 1px solid #f1f1f1; border-radius: 8px; text-align: center;">
+                <a href="assets/img/cam/fisher.png" class="glightbox" data-gallery="images-gallery">
+                  <img src="assets/img/cam/fisher.png" alt="Fisher Scientific" class="img-fluid" style="max-height: 80px;">
+                </a>
+              </div>
             </div>
-          </div>
-          <div class="col-lg-3 col-md-4">
-            <div class="gallery-item">
-              <a href="assets/img/cam/merck.png" class="glightbox" data-gallery="images-gallery">
-                <img src="assets/img/cam/merck.png" alt="Merck" class="img-fluid">
-              </a>
+
+            <div class="swiper-slide">
+              <div class="gallery-item" style="padding: 20px; border: 1px solid #f1f1f1; border-radius: 8px; text-align: center;">
+                <a href="assets/img/cam/merck.png" class="glightbox" data-gallery="images-gallery">
+                  <img src="assets/img/cam/merck.png" alt="Merck" class="img-fluid" style="max-height: 80px;">
+                </a>
+              </div>
             </div>
-          </div>
-          <div class="col-lg-3 col-md-4">
-            <div class="gallery-item">
-              <a href="assets/img/cam/thermo.png" class="glightbox" data-gallery="images-gallery">
-                <img src="assets/img/cam/thermo.png" alt="Thermo Scientific" class="img-fluid">
-              </a>
+
+            <div class="swiper-slide">
+              <div class="gallery-item" style="padding: 20px; border: 1px solid #f1f1f1; border-radius: 8px; text-align: center;">
+                <a href="assets/img/cam/thermo.png" class="glightbox" data-gallery="images-gallery">
+                  <img src="assets/img/cam/thermo.png" alt="Thermo Scientific" class="img-fluid" style="max-height: 80px;">
+                </a>
+              </div>
             </div>
-          </div>
-          <div class="col-lg-3 col-md-4">
-            <div class="gallery-item">
-              <a href="assets/img/cam/microbi.png" class="glightbox" data-gallery="images-gallery">
-                <img src="assets/img/cam/microbi.png" alt="Microbiologics" class="img-fluid">
-              </a>
+
+            <div class="swiper-slide">
+              <div class="gallery-item" style="padding: 20px; border: 1px solid #f1f1f1; border-radius: 8px; text-align: center;">
+                <a href="assets/img/cam/microbi.png" class="glightbox" data-gallery="images-gallery">
+                  <img src="assets/img/cam/microbi.png" alt="Microbiologics" class="img-fluid" style="max-height: 80px;">
+                </a>
+              </div>
             </div>
-          </div>
-          <div class="col-lg-3 col-md-4">
-            <div class="gallery-item">
-              <a href="assets/img/cam/higyena.png" class="glightbox" data-gallery="images-gallery">
-                <img src="assets/img/cam/higyena.png" alt="Hygiena" class="img-fluid">
-              </a>
+
+            <div class="swiper-slide">
+              <div class="gallery-item" style="padding: 20px; border: 1px solid #f1f1f1; border-radius: 8px; text-align: center;">
+                <a href="assets/img/cam/higyena.png" class="glightbox" data-gallery="images-gallery">
+                  <img src="assets/img/cam/higyena.png" alt="Hygiena" class="img-fluid" style="max-height: 80px;">
+                </a>
+              </div>
             </div>
-          </div>
-          <div class="col-lg-3 col-md-4">
-            <div class="gallery-item">
-              <a href="assets/img/cam/organomation.png" class="glightbox" data-gallery="images-gallery">
-                <img src="assets/img/cam/organomation.png" alt="Organomation" class="img-fluid">
-              </a>
+
+            <div class="swiper-slide">
+              <div class="gallery-item" style="padding: 20px; border: 1px solid #f1f1f1; border-radius: 8px; text-align: center;">
+                <a href="assets/img/cam/organomation.png" class="glightbox" data-gallery="images-gallery">
+                  <img src="assets/img/cam/organomation.png" alt="Organomation" class="img-fluid" style="max-height: 80px;">
+                </a>
+              </div>
             </div>
-          </div>
-                    <div class="col-lg-3 col-md-4">
-            <div class="gallery-item">
-              <a href="assets/img/cam/organomation.png" class="glightbox" data-gallery="images-gallery">
-                <img src="assets/img/cam/organomation.png" alt="Organomation" class="img-fluid">
-              </a>
+
+            <div class="swiper-slide">
+              <div class="gallery-item" style="padding: 20px; border: 1px solid #f1f1f1; border-radius: 8px; text-align: center;">
+                <a href="assets/img/cam/FisherSci (002).png" class="glightbox" data-gallery="images-gallery">
+                  <img src="assets/img/cam/FisherSci (002).png" alt="Fisher Sci" class="img-fluid" style="max-height: 80px;">
+                </a>
+              </div>
             </div>
-          </div>
-                    <div class="col-lg-3 col-md-4">
-            <div class="gallery-item">
-              <a href="assets/img/cam/organomation.png" class="glightbox" data-gallery="images-gallery">
-                <img src="assets/img/cam/organomation.png" alt="Organomation" class="img-fluid">
-              </a>
+
+            <div class="swiper-slide">
+              <div class="gallery-item" style="padding: 20px; border: 1px solid #f1f1f1; border-radius: 8px; text-align: center;">
+                <a href="assets/img/cam/M0246-1.webp" class="glightbox" data-gallery="images-gallery">
+                  <img src="assets/img/cam/M0246-1.webp" alt="Microscopio" class="img-fluid" style="max-height: 80px;">
+                </a>
+              </div>
             </div>
+
           </div>
+          
+          <div class="swiper-pagination"></div>
         </div>
+
       </div>
+
     </section>
 
     <section id="contact" class="contact section">
