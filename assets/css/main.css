@@ -1728,3 +1728,11 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+
+/* Regla para uniformar el carrusel de marcas */
+.gallery .swiper-slide img {
+  width: 100%;           /* Ocupa el ancho disponible de la columna */
+  height: 150px;         /* Altura fija para todos */
+  object-fit: contain;   /* AJUSTE MÁGICO: Muestra la imagen entera sin recortar ni estirar */
+  padding: 10px;         /* Un poco de aire alrededor */
+}
