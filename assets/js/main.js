@@ -182,4 +182,36 @@
   window.addEventListener('load', navmenuScrollspy);
   document.addEventListener('scroll', navmenuScrollspy);
 
+  document.addEventListener("DOMContentLoaded", function() {
+  
+  // 1. Configurar WhatsApp
+  const waBtn = document.getElementById('whatsapp-link');
+  if (waBtn && CONFIG.phoneNumber) {
+    waBtn.href = `https://wa.me/${CONFIG.phoneNumber}`;
+  }
+
+  // 2. Configurar Formularios (Busca todos los formularios con la clase dynamic-form)
+  const forms = document.querySelectorAll('.dynamic-form');
+  forms.forEach(form => {
+    if (CONFIG.formspreeURL) {
+      form.action = CONFIG.formspreeURL;
+    }
+  });
+
+  // 3. Inyectar Tawk.to (Chat)
+  if (CONFIG.tawkToId) {
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    // Aquí usamos la variable del config
+    s1.src=`https://embed.tawk.to/${CONFIG.tawkToId}`;
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+    })();
+  }
+
+});
+
 })();
