@@ -88,18 +88,18 @@
       <div class="container">
         <div class="row gy-4 align-items-center">
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <img src="assets/img/about.jpg" class="img-fluid rounded shadow" alt="Historia CAM">
+            <img src="assets/img/cam/Draeger-X-plore-6300-100-D-9036-2018_600x600@2x.jpg" class="img-fluid rounded shadow" alt="Instalaciones CAM">
           </div>
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
             <h3>Nuestra Historia</h3>
-            <p class="fst-italic">
-              Fundada en 2008 bajo la razón social "Sanchez & Martínez S.A."
+            <p>
+              Somos <strong>una empresa líder en soluciones integrales</strong> para laboratorios de control de calidad, instituciones académicas, industriales y del sector salud, con una sólida trayectoria respaldada por la excelencia, la innovación y el servicio técnico especializado.
             </p>
             <p>
-              CAM INTERNATIONAL opera localmente como representante exclusivo de <strong>Central American Merch Corporation</strong> (fundada en 1990 en Miami, Florida). Contamos con una trayectoria sólida trabajando en Nicaragua y otros países de la región.
+              Contamos con <strong>un amplio portafolio de productos</strong> con respaldo de fábrica y asesoría científica calificada, representando marcas internacionales reconocidas por su calidad y confiabilidad.
             </p>
             <p>
-              Nuestra función principal es proveer equipos, reactivos y materiales para laboratorios de control de calidad, análisis, investigación y seguridad industrial. Tras más de 12 años de operación local, nos hemos consolidado como uno de los principales proveedores de referencia para empresas prestigiosas de diversos sectores.
+              Con un alcance que abarca el sector público y privado, manteniendo <strong>presencia en proyectos de alto impacto </strong>en centros de investigación, universidades, hospitales y laboratorios especializados, contribuyendo al avance científico y al fortalecimiento de capacidades tecnológicas en la región.
             </p>
           </div>
         </div>
@@ -138,36 +138,57 @@
       </div>
     </section>
 
-<section id="values" class="stats section">
+    <section id="values" class="stats section">
       <div class="container section-title" data-aos="fade-up">
         <h2>Nuestros Valores</h2>
         <p>Los pilares que sostienen nuestro compromiso con la calidad.</p>
       </div>
       <div class="container" data-aos="fade-up" data-aos-delay="100">
-        <div class="row gy-4">
+        <div class="row gy-4 justify-content-center">
           
-          <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
+          <div class="col-lg-3 col-md-4 col-sm-6 d-flex flex-column align-items-center">
             <i class="fas fa-hand-holding-heart fa-3x text-white mb-3"></i>
             <div class="stats-item">
-              <p>Integridad</p>
+              <p>Honestidad</p>
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
-            <i class="fas fa-users fa-3x text-white mb-3"></i>
+          <div class="col-lg-3 col-md-4 col-sm-6 d-flex flex-column align-items-center">
+            <i class="fas fa-clipboard-check fa-3x text-white mb-3"></i>
+            <div class="stats-item">
+              <p>Responsabilidad</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-sm-6 d-flex flex-column align-items-center">
+            <i class="fas fa-handshake fa-3x text-white mb-3"></i>
             <div class="stats-item">
               <p>Compromiso</p>
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
+          <div class="col-lg-3 col-md-4 col-sm-6 d-flex flex-column align-items-center">
+            <i class="fas fa-headset fa-3x text-white mb-3"></i>
+            <div class="stats-item">
+              <p>Servicio al Cliente</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-sm-6 d-flex flex-column align-items-center">
+            <i class="fas fa-users fa-3x text-white mb-3"></i>
+            <div class="stats-item">
+              <p>Trabajo en Equipo</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-sm-6 d-flex flex-column align-items-center">
             <i class="fas fa-lightbulb fa-3x text-white mb-3"></i>
             <div class="stats-item">
               <p>Innovación</p>
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
+          <div class="col-lg-3 col-md-4 col-sm-6 d-flex flex-column align-items-center">
             <i class="fas fa-medal fa-3x text-white mb-3"></i>
             <div class="stats-item">
               <p>Calidad</p>
@@ -218,7 +239,8 @@
             <li><a href="#">Alimentos y Bebidas</a></li>
             <li><a href="#">Higiene y Salud</a></li>
             <li><a href="#">Academia y Control</a></li>
-            <li><a href="#">Industrial</a></li>
+            <li><a href="#">Seguridad Industrial</a></li>
+            <li><a href="#">Control en Constructoras</a></li>
             <li><a href="#">Taller de Servicio</a></li>
           </ul>
         </div>
@@ -286,11 +308,11 @@
     /* 2. FLECHA "IR ARRIBA" (A la derecha del WhatsApp) */
     #scroll-top {
       position: fixed;
-      bottom: 35px !important; /* Alineado visualmente con el centro del WhatsApp */
-      left: 105px !important;  /* 30px (borde) + 60px (btn whatsapp) + 15px (espacio) */
-      right: auto !important;  /* IMPORTANTE: Anulamos la posición derecha original */
+      bottom: 35px !important; 
+      left: 105px !important;  
+      right: auto !important;  
       z-index: 998;
-      opacity: 0;              /* Invisible al inicio (el JS lo muestra al bajar) */
+      opacity: 0;              
       visibility: hidden;
       transition: all 0.4s;
     }
